@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-family: 'Sora', sans-serif;
+  vertical-align: baseline;
+}
+
+.App {
+  background: transparent;
+}
+
+div {
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  color: #86868b;
+  padding: 3px;
+}
+
+h1 {
+  margin: 15px 0 0 15px;
+  font-size: 2rem;
+  color: rgba(29,29,31,255);
+}
+
+h5 {
+  margin: 5px 0 0 15px;
+  color: rgba(167,170,172,255);
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0 20px;
+  margin: 45px 0;
+}
+
+.spinner {
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid rgba(29,29,31,255); 
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
