@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/RehmanMuaz/Spacestagram">
-    <img src="rocket.png" alt="Logo" width="80" height="80">
+    <img src="public/rocket.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Spacestagram</h3>
@@ -86,4 +86,4 @@ Project Link: [https://github.com/RehmanMuaz/Spacestagram](https://github.com/Re
 [license-url]: https://github.com/RehmanMuaz/Spacestagram/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/muazrehman
-[product-screenshot]: screenshot.png
+[product-screenshot]: public/screenshot.png
