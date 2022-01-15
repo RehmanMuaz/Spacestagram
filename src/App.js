@@ -34,8 +34,10 @@ function App() {
   else {
     return (
       <div className='App'>
+      <header>
         <h1>Spacestagram</h1>
         <h5>Brought to you by NASA's Astronomy Photo of the Day (APOD) API</h5>
+      </header>
           <ul>
           {
             items.map((item => 
@@ -46,6 +48,7 @@ function App() {
           )
           }
           </ul>
+          <button className='RefreshBtn' onClick={() => window.location.reload(false)}>Refresh</button>
           <footer>
             <p1>Copyright © 2022 Muaz Rehman. All rights reserved.</p1>
         </footer>

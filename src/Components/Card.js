@@ -3,9 +3,11 @@ import './Button.css'
 import React, { useState } from 'react'
 import { FaHeart,FaRegHeart } from 'react-icons/fa'
 import { BiShare } from 'react-icons/bi'
+import { useAlert } from 'react-alert'
 
 function Card(props) {
     const [liked, setLike] = useState(false);
+    const alert = useAlert();
 
     return (
         <div className="Card">
@@ -21,7 +23,7 @@ function Card(props) {
                         {liked ? <FaHeart color='red' size={25}/> : <FaRegHeart size={25} color='grey'/>}
                     </button>
                     <button 
-                        onClick={() => {navigator.clipboard.writeText(props.url)}}
+                        onClick={() => {navigator.clipboard.writeText(props.url); alert.success('Link Copied')}}
                     >
                         <BiShare size={25} color='grey'/>
                     </button>
