@@ -28,6 +28,7 @@ footer {
 
 header {
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 h1 {
@@ -67,7 +68,7 @@ li {
 }
 
 .RefreshBtn:hover {
-  background-color: #e8e8ed;
+  background-color: #dedede;
 }
 
 .spinner {

@@ -3,13 +3,58 @@
     max-width: 900px;
     border-radius: 18px;
     overflow: hidden;
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 15%);
 }
 
 .Content {
     background-color: white;
     margin: 20px 20px;
 }
+
+.ExpandBtn {
+    margin-top: 4px;
+    vertical-align: middle;
+    color: grey;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.ExpandBtn:hover {
+    color: black;
+}
+
+.LikeBtnClicked {
+    color: red;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.LikeBtnClicked:hover {
+    transform: scale(1.1);
+}
+
+.LikeBtnUnclicked {
+    color: gray;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.LikeBtnUnclicked:hover {
+    transform: scale(1.1);
+}
+
+
+.ShareBtn {
+    color: gray;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.ShareBtn:hover {
+    transform: scale(1.1);
+}
+
 
 h2 {
     font-size: 28px;
@@ -20,15 +65,14 @@ h3 {
     font-size: 12px;
     font-weight: 600;
     color: #6e6e73;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 p {
     font-size: 17px;
     font-weight: 400;
     color: #1d1d1f;
-    padding-top: 10px;
-    margin-top: 0;
 }
 
 img {
