@@ -22,7 +22,7 @@
     <a href="https://github.com/RehmanMuaz/Spacestagram"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/RehmanMuaz/Spacestagram">View Demo</a>
+    <a href="https://rehmanmuaz.github.io/Spacestagram/">View Demo</a>
     ·
     <a href="https://github.com/RehmanMuaz/Spacestagram/issues">Report Bug</a>
     ·
@@ -66,9 +66,9 @@ A simple React website that displays multiple Photos of the Day using NASA's Ast
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@MuazR5](https://twitter.com/MuazR5) - me@muaz.ca
+Muaz Rehman - [@MuazR5](https://twitter.com/MuazR5) - me@muaz.ca
 
-Project Link: [https://github.com/RehmanMuaz/Spacestagram](https://github.com/RehmanMuaz/Spacestagram)
+Spacestagram: [https://github.com/RehmanMuaz/Spacestagram](https://github.com/RehmanMuaz/Spacestagram)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
